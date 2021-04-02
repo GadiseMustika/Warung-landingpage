@@ -1,0 +1,340 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    background-color: #fff;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container img{
+    width: 200px;
+    padding: 0 100px;
+    margin-top: 10px;
+}
+
+nav .list{
+    float: right;
+    margin-right: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding-left: 20px;
+}
+
+nav ul li a{
+    color: #afafb4;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a.active,a:hover{
+    background-color: #0a83c6;
+    color: #ffffff;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+header .hero{
+    background-image: url(../Assets/asset\ Landing_Page/header.png);
+    background-size: cover;
+    width: 1300px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.hero h1{
+    color: lightgreen;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.hero h2{
+    color: rgb(255, 255, 167);
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.hero h3{
+    color:#ffffff;
+    font-size: 35px;
+    padding-left: 100px;
+    padding-top: 8px;
+}
+
+.hero button {
+    background-color: #0a83c6;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    margin-left: 97px;
+    border-radius: 5px ;
+}
+
+main h1{
+    text-align: center;
+    font-size: 50px;
+    color: #0a83c6 ;
+    padding-top: 50px;
+    transition: .5s;
+}
+
+main .card-container{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card .card-img{
+    max-width: 320px;
+    margin-left: -100px;
+    margin-top: -20px;
+    overflow: hidden;
+}
+
+main .card{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+    opacity: 1;
+    transition: .3s;
+}
+
+main .card:hover{
+    box-shadow: 0 10px 8px rgba(0,0,0,.2);
+}
+
+.card-header{
+    margin: 16px 0;
+}
+
+.card-header h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card-content p{
+    text-align: center;
+    font-size: 12px;
+    color: #96969e;
+    line-height: 18px;
+}
+
+.card-button button{
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    margin-left: 10px auto;
+    padding: 8px;
+    color: white;border: none;
+    border-radius: 5px;
+    background-color: #0a83c6;
+}
+
+.partner-container{
+    margin: 10px;
+    padding-left: -20px;
+    text-align: center;
+}
+.partner .partner-img{
+    display: inline-block;
+}
+
+.footer-content{
+    width: 100%;
+    height: 300px;
+    background-color: #0a83c6;
+}
+
+
+.about{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.content-contact h2{
+    color: white;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.content-contact p{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.content-about{
+    margin-top: -200px;
+    margin-right: 50px;
+    float: right;
+    color: #fff;
+}
+
+.content-about p{
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+
+.footer-bottom{
+    padding: 10px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000000;
+}
+
+
+/* Animasi */
+@keyframes fade{
+    0%{
+    opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Ini adalah clearfix */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+	 content: " "; /* 1 */
+	 display: table; /* 2 */
+ }
+ 
+ .cf:after {
+	 clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+	 *zoom: 1;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ini adalah clearfix */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+	 content: " "; /* 1 */
+	 display: table; /* 2 */
+ }
+ 
+ .cf:after {
+	 clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+	 *zoom: 1;
+ }
