@@ -33,7 +33,7 @@ nav ul li a{
 
 a.active,a:hover{
     background-color: #0a83c6;
-    color: #292121;
+    color: #fff;
     padding: 10px;
     transition: .5s;
     border-radius: 5px;
