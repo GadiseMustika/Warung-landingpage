@@ -1,0 +1,26 @@
+* [33m915c498[m[33m ([m[1;32mwarung[m[33m)[m mengubah warna tombol pada hero
+* [33m8b0a571[m mengubah warna tombol menjadi biru
+[31m|[m *   [33mdbfaefc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m mengubah warna tombol
+[31m|[m [32m|[m[31m\[m  
+[31m|[m [32m|[m[31m/[m  
+[31m|[m[31m/[m[32m|[m   
+* [32m|[m   [33m610db02[m Merge pull request #3 from xuxuxiii/button
+[34m|[m[35m\[m [32m\[m  
+[34m|[m * [32m|[m [33mfeffb81[m merubah warna button hero
+[34m|[m[34m/[m [32m/[m  
+* [32m|[m   [33m72ea890[m Merge pull request #2 from xuxuxiii/hover
+[36m|[m[1;31m\[m [32m\[m  
+[36m|[m * [32m|[m [33mc9f35e6[m mengubah warna hover
+[36m|[m[36m/[m [32m/[m  
+* [32m|[m   [33m16a4fcc[m Merge pull request #1 from xuxuxiii/hero
+[1;32m|[m[1;33m\[m [32m\[m  
+[1;32m|[m * [32m|[m [33m6334da1[m mengubah tulisan pada hero
+[1;32m|[m[1;32m/[m [32m/[m  
+[1;32m|[m * [33mae1d7df[m mengubah warna tombol pada hero
+[1;32m|[m[1;32m/[m  
+* [33maf60c9b[m mengubah warna huruf di Landing Page
+* [33m5b02259[m Menambahkan reset css
+* [33m645afd8[m Menambahkan 3 file di rules
+* [33md73303f[m menambahkan 2 file login page
+* [33m4551a93[m menambahkan 2 file di landing page
+* [33m1b6792d[m Menambahkan Assets Project Pertama
